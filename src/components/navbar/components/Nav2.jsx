@@ -1,6 +1,6 @@
 import { useState } from 'react';
 
-function Literature() {
+function Nav2() {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
@@ -80,4 +80,4 @@ function Literature() {
   );
 }
 
-export default Literature;
+export default Nav2;
