@@ -6,6 +6,10 @@ import "./App.css";
 function App() {
   return (
     <>
+      <h1 className="text-center text-2xl font-semibold p-8 bg-teal-100">
+        Welcome to E-Learning
+      </h1>
+      {/*  */}
       {/* <Demo1 /> */}
       {/* <Comp1 /> */}
       {/* <Demo /> */}

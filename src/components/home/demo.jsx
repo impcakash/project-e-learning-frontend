@@ -3,7 +3,7 @@ import "./styles/d1.css";
 export const Demo = () => {
   return (
     <div>
-      <h1 className="bg-slate-400 text-center">Inside Home Components</h1>
+      <h1 className="p-8 text-2xl text-center">Inside Home Components</h1>
       <h2
         style={{
           color: "coral",
