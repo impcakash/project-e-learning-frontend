@@ -1,15 +1,21 @@
 import "./App.css";
-// import Comp1 from "./components/literature/components/Comp1";
-// import {Demo1} from './components/navbar/Demo1';
-import Footer from './components/footer/Footer.jsx';
+// import Navbar2 from './components/navbar/components/Nav2.jsx';
+// import Component1 from "./components/literature/components/Component1";
+// import Component2 from "./components/literature/components/Component2";
+// import Component3 from './components/literature/components/Component3'
+// import Footer from './components/footer/Footer.jsx';
 
 function App(){
   return (
     <>
-      {/* <Demo1 />
-      <Comp1 /> */}
-      <Footer />
-      <div>
+    
+      {/* <Navbar2 />
+      <Component1/>
+      <Component2 />
+      <Component3 />
+      <Footer/> */}
+
+      {/* <div>
         <a href="https://vite.dev" target="_blank">
           <img src={viteLogo} className="logo" alt="Vite logo" />
         </a>
@@ -17,10 +23,12 @@ function App(){
           <img src={reactLogo} className="logo react" alt="React logo" />
         </a>
       </div>
-      <h1>E-Learning</h1>
+      <h1>E-Learning</h1> */}
   
     </>
   );
 }
 
 export default App;
+
+//  Jo part comment hai osko kch mat kro...
