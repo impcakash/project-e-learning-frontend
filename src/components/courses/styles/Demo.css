@@ -1,0 +1,23 @@
+.app {
+    text-align: center;
+    padding: 20px;
+    background-image: url('./assets/side-wave_background.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100vh; 
+  }
+  .app1{
+    color: black;
+  }
+  
+  .courses-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+  }
+  .grid-container {
+    display: grid; 
+    grid-template-columns: repeat(3, 1fr); 
+    gap: 1.5rem; 
+  }
