@@ -5,6 +5,7 @@ import "./App.css";
 // import Component3 from './components/literature/components/Component3'
 // import Footer from './components/footer/Footer.jsx';
 
+
 function App(){
   return (
     <>
@@ -14,6 +15,7 @@ function App(){
       <Component2 />
       <Component3 />
       <Footer/> */}
+     
 
       {/* <div>
         <a href="https://vite.dev" target="_blank">
