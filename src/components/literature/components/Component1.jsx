@@ -28,7 +28,7 @@ const Component1 = () => {
                   <h2 className="text-lg font-semibold">Jhon Anderson</h2>
                   <p className="text-sm text-gray-500">Assistant Professor at McMaster University</p>
                 </div>
-                <button id='btn_u' className="bg-teal-500 text-white px-4 py-2 rounded-lg hover:bg-teal-600">
+                <button className="button_u">
                   Enroll Now
                 </button>
               </div>
@@ -43,7 +43,7 @@ const Component1 = () => {
        {/* Statistics Section */}
           
        <div className="flex items-center justify-between mt-0 text-sm text-gray-500">
-                    <div className="flex items-center space-x-1">
+           <div className="flex items-center space-x-1">
               <div className='icons_u'>
                 <img src="http://127.0.0.1:5500/E-learning-Team2-/assest/media/star.png" alt="Rating" className="w-5 h-5" />
                 <span>4.9 Instructor Rating</span>
@@ -53,12 +53,17 @@ const Component1 = () => {
                 <span>1,592 Students</span>
               </div>
               <div className="icons_u">
-                <img src="http://127.0.0.1:5500/E-learning-Team2-/assest/media/play.png " alt="Courses" className="w-5 h-5" />
+                <img src="http://127.0.0.1:5500/E-learning-Team2-/assest/media/play.png" alt="Courses" className="w-5 h-5" />
                 <span>Courses</span>
                 {/* </div> */}
               </div>
             </div>
-            </div>
+    </div>
+    <div className='eyecon_u'>
+              <img src="http://127.0.0.1:5500/E-learning-Team2-/assest/media/twitter.png" alt="" />
+              <img src="http://127.0.0.1:5500/E-learning-Team2-/assest/media/facebook.png" alt=""  />
+              <img src="http://127.0.0.1:5500/E-learning-Team2-/assest/media/instagram.png" alt="" />
+            </div> 
 
           </div>
         </div>
