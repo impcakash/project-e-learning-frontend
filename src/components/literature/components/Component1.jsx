@@ -53,7 +53,7 @@ const Component1 = () => {
                 <span>1,592 Students</span>
               </div>
               <div className="icons_u">
-                <img src="http://127.0.0.1:5500/E-learning-Team2-/assest/media/play.png" alt="Courses" className="w-5 h-5" />
+                <img src="http://127.0.0.1:5500/E-learning-Team2-/assest/media/play.png " alt="Courses" className="w-5 h-5" />
                 <span>Courses</span>
                 {/* </div> */}
               </div>
