@@ -1,5 +1,5 @@
 import React from 'react';
-import './Demo.css';
+import './App.css';
 import CourseCard from './components/CourseCard';
 import NavigationButtons from './components/NavigationButtons';
 import course1 from './assets/course1.png';
@@ -7,7 +7,7 @@ import course2 from './assets/course2.png';
 import course3 from './assets/course3.png';
 import avatar from './assets/avatar.png';
 
-function Demo() {
+function App() {
   const courses = [
     { image: course1, title: 'AWS Certified Solutions Architect', instructor: 'Lina', lesson: '5 of 7' },
     { image: course2, title: 'Web Developer Certified', instructor: 'Lina', lesson: '5 of 7' },
@@ -46,4 +46,4 @@ function Demo() {
   );
 }
 
-export default Demo;
+export default App;
