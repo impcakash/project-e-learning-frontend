@@ -1,4 +1,5 @@
 import "./App.css";
+import { Homepage } from "./components/home/Homepage";
 // import Navbar2 from './components/navbar/components/Nav2.jsx';
 // import Component1 from "./components/literature/components/Component1";
 // import Component2 from "./components/literature/components/Component2";
@@ -6,17 +7,17 @@ import "./App.css";
 // import Footer from './components/footer/Footer.jsx';
 // import Login from './components/navbar/components/Login.jsx';
 
-function App(){
+function App() {
   return (
     <>
-    
       {/* <Navbar2 />
       <Component1/>
       <Component2 />
       <Component3 />
       <Footer/>
       <Login/> */}
-          
+
+      <Homepage />
 
       {/* <div>
         <a href="https://vite.dev" target="_blank">
@@ -27,7 +28,6 @@ function App(){
         </a>
       </div>
       <h1>E-Learning</h1> */}
-  
     </>
   );
 }

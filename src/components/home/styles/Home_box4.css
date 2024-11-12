@@ -1,0 +1,118 @@
+.hb4_content {
+  color: rgb(105, 105, 132);
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 20px;
+}
+
+.hb4_heading_1 {
+  color: rgb(33, 37, 41);
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 29px;
+}
+
+.hb4_heading_2 {
+  color: rgb(73, 187, 189);
+}
+
+.hb4_border1 {
+  border: 2px solid red;
+}
+
+.hb4_border2 {
+  border: 2px solid purple;
+}
+
+/* .hb4_bg1 {
+  width: 100%;
+  height: 300px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url("../assests/wit-01.png");
+  border-radius: 10px;
+  } */
+
+/* .hb4_bg2 {
+  width: 100%;
+  height: 300px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url("../assests/wit-02.png");
+  border-radius: 10px;
+} */
+
+/* .hb4_bg1:hover {
+  transform: scale(1.02);
+  transition-duration: 1.75s;
+}
+
+.hb4_bg2:hover {
+  transform: scale(1.02);
+  transition-duration: 1.25s;
+} */
+
+.hb4_bg1 {
+  width: 100%;
+  height: 300px;
+  background-image: linear-gradient(#1414148f, rgba(23, 23, 23, 0.43)),
+    url("../assests/wit-01.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  transition: all 300ms;
+  border-radius: 10px;
+}
+
+.hb4_bg2 {
+  width: 100%;
+  height: 300px;
+  background-image: linear-gradient(#1414148f, rgba(23, 23, 23, 0.43)),
+    url("../assests/wit-02.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  transition: all 300ms;
+  border-radius: 10px;
+}
+
+.hb4_bg1:hover,
+.hb4_bg2:hover {
+  transform: translateY(-5px);
+}
+
+.hb4_bg1 button {
+  color: #ffffff;
+  padding: 10px 30px;
+  border-radius: 30px;
+  margin: 10px 0px;
+  border: 2px solid white;
+  background-color: transparent;
+  transition: all 300ms;
+}
+
+.hb4_bg1 button:hover {
+  background-color: white;
+  color: #41be90;
+}
+
+.hb4_bg2 button {
+  color: #ffffff;
+  padding: 10px 30px;
+  border-radius: 30px;
+  margin: 10px 0px;
+  border: 2px solid #23bdeee5;
+  background-color: #23bdeee5;
+  transition: all 300ms;
+}
+
+.hb4_bg2 button:hover {
+  background-color: transparent;
+}
+
+.hb4_bg_heading {
+  color: rgb(255, 255, 255);
+  font-size: 24px;
+  line-height: 29px;
+  letter-spacing: 0.5px;
+}

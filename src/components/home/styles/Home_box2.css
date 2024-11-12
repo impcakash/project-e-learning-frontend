@@ -1,0 +1,56 @@
+.hb2_heading {
+    color: rgb(1, 5, 20);
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 48px;
+}
+
+.hb2_content {
+    color: rgba(1, 5, 20, 0.8);
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 20px;
+}
+
+.hb2_content_2 {
+    color: rgb(105, 105, 132);
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 20px;
+}
+
+.hb2_matrix>div {
+    color: rgba(73, 187, 189, 0.867);
+    font-weight: 400;
+    text-align: center;
+}
+
+.hb2_matrix_font>div {
+    font-size: 48px;
+    line-height: 58px;
+}
+
+@media (max-width: 768px) {
+    .hb2_matrix_font>div {
+        font-size: 32px;
+        line-height: 38px;
+    }
+}
+
+@media (max-width: 640px) {
+    .hb2_matrix_font>div {
+        font-size: 24px;
+        line-height: 29px;
+    }
+}
+
+.hb2_heading_1 {
+    color: rgb(33, 37, 41);
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+}
+
+.hb2_heading_2 {
+    color: rgb(73, 187, 189);
+}

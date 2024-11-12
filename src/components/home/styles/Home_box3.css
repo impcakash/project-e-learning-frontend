@@ -1,0 +1,23 @@
+.hb3_box_head {
+    color: rgb(47, 50, 125);
+    font-size: 24px;
+    line-height: 36px;
+    font-weight: 500;
+}
+
+.hb3_box_text {
+    color: rgb(105, 105, 132);
+    font-size: 13px;
+    line-height: 20px;
+    font-weight: 400;
+}
+
+.hb3_box_shadow {
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    border-radius: 10px;
+}
+
+.hb3_box_shadow:hover {
+    transform: scale(1.02);
+    transition-duration: 0.75s;
+}
