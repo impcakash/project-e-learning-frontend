@@ -1,7 +1,7 @@
 import React, { useState, useRef } from 'react';
 import { FaChevronLeft, FaChevronRight } from 'react-icons/fa';
-import Rectangle1 from '../assets/Rectangle1.png';
-import Logo1 from '../assets/logo1.png';
+import Rectangle1 from '../assests/Rectangle1.png';
+import Logo1 from '../assests/logo1.png';
 
 
 
