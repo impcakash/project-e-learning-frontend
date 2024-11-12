@@ -2,7 +2,7 @@ import { useState } from "react";
 import Component2Book from './Component2Book';
 
 const images = {
-    About: "http://127.0.0.1:5501/assest/media/Rectangle%20196.png",
+    About: "./../assests/image3.png",
     Course: "http://127.0.0.1:5501/assest/media/Rectangle%2032.png",
     Notes: "http://127.0.0.1:5501/assest/media/Rectangle%2033.png",
     Project: "http://127.0.0.1:5501/assest/media/Rectangle%2032%20(5).png",
@@ -15,7 +15,7 @@ const books = [
     {
         title: "Build Your Dream Network",
         price: "$24",
-        image: "http://127.0.0.1:5501/assest/media/Rectangle%20196.png"
+        image: "./../assests/image3.png"
     },
     {
         title: "Visible Learning for Literacy",

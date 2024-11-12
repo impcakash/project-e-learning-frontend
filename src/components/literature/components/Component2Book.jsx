@@ -1,4 +1,4 @@
-// import React from "react";
+import React from "react";
 import PropTypes from "prop-types";
 
 function Component2Book({ book }) {
@@ -11,9 +11,8 @@ function Component2Book({ book }) {
       />
       <div className="p-3">
         <h2 className="text-lg font-semibold">{book.title}</h2>
-        {/* <p className="text-gray-600 text-sm">{book.author}</p> */}
         <p className="mt-0 font-bold">{book.price}</p>  
-        {/* ml-72 - for price in one line */}
+     
         <p className="text-sm text-green-500 mt-0 mr-24 ">All Benefits of PLUS</p>
       </div>
     </div>
