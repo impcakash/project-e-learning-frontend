@@ -17,7 +17,7 @@ function App() {
       <Footer/>
       <Login/> */}
 
-      <Homepage />
+      {/* <Homepage /> */}
 
       {/* <div>
         <a href="https://vite.dev" target="_blank">
