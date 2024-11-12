@@ -4,7 +4,7 @@ import "./App.css";
 // import Component2 from "./components/literature/components/Component2";
 // import Component3 from './components/literature/components/Component3'
 // import Footer from './components/footer/Footer.jsx';
-
+import Component1 from './components/literature/components/Component1';
 
 function App(){
   return (
@@ -15,6 +15,7 @@ function App(){
       <Component2 />
       <Component3 />
       <Footer/> */}
+      <Component1 />
      
 
       {/* <div>
