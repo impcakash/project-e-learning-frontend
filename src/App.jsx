@@ -1,5 +1,6 @@
 import "./App.css";
-import Blog from "./components/blog/Blog";
+//import Blog from "./components/blog/Blog";
+//import { CheckoutMain }  from "./components/other_section/Checkout/CheckoutMain";
 
 // import { Homepage } from "./components/home/Homepage";
 // import Navbar2 from './components/navbar/components/Nav2.jsx';
@@ -37,9 +38,12 @@ function App() {
       <h1>E-Learning</h1> */}
 
 
-
+     
       {/* BLOGG PAGEE */}
-      <Blog/>
+      {/* <Blog/> */}
+
+      {/* OTHERS=> CHECKOUT PAGE */}
+      {/* <CheckoutMain/> */}
 
       
     </>
