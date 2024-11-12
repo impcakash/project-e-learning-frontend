@@ -4,7 +4,7 @@ import "./App.css";
 // import Component2 from "./components/literature/components/Component2";
 // import Component3 from './components/literature/components/Component3'
 // import Footer from './components/footer/Footer.jsx';
-import Component1 from './components/literature/components/Component1';
+// import Login from './components/navbar/components/Login.jsx';
 
 function App(){
   return (
@@ -14,9 +14,9 @@ function App(){
       <Component1/>
       <Component2 />
       <Component3 />
-      <Footer/> */}
-      <Component1 />
-     
+      <Footer/>
+      <Login/> */}
+          
 
       {/* <div>
         <a href="https://vite.dev" target="_blank">

@@ -30,7 +30,7 @@ function Nav2() {
           <div className="hidden md:flex items-center space-x-2 cursor-pointer" onClick={() => setIsOpen(!isOpen)}>
             {/* Profile Image */}
             <img
-              src="https://via.placeholder.com/40" // Placeholder image URL; replace with actual profile image URL
+              src="http://127.0.0.1:5500/E-learning-Team2-/assest/media/image%2012.png" // Placeholder image URL; replace with actual profile image URL
               alt="Profile"
               className="w-10 h-10 rounded-full object-cover"
             />

@@ -2,45 +2,45 @@ import { useState } from "react";
 import Component2Book from './Component2Book';
 
 const images = {
-    About: "./../assests/image3.png",
-    Course: "http://127.0.0.1:5501/assest/media/Rectangle%2032.png",
-    Notes: "http://127.0.0.1:5501/assest/media/Rectangle%2033.png",
-    Project: "http://127.0.0.1:5501/assest/media/Rectangle%2032%20(5).png",
-    Podcast: "http://127.0.0.1:5501/assest/media/Rectangle%2032%20(3).png",
-    Book: "http://127.0.0.1:5501/assest/media/Rectangle%20196.png",
-    Review: "http://127.0.0.1:5501/assest/media/Rectangle%2032%20(4).png",
+    About: "http://127.0.0.1:5500/E-learning-Team2-/assest/media/Rectangle%20196.png",
+    Course: "http://127.0.0.1:5500/E-learning-Team2-/assest/media/Rectangle%2032.png",
+    Notes: "http://127.0.0.1:5500/E-learning-Team2-/assest/media/Rectangle%2033.png",
+    Project: "http://127.0.0.1:5500/E-learning-Team2-/assest/media/Rectangle%2032%20(5).png",
+    Podcast: "http://127.0.0.1:5500/E-learning-Team2-/assest/media/Rectangle%2032%20(3).png",
+    Book: "http://127.0.0.1:5500/E-learning-Team2-/assest/media/Rectangle%20196.png",
+    Review: "http://127.0.0.1:5500/E-learning-Team2-/assest/media/Rectangle%2032%20(4).png",
 };
 
 const books = [
     {
         title: "Build Your Dream Network",
         price: "$24",
-        image: "./../assests/image3.png"
+        image: "http://127.0.0.1:5500/E-learning-Team2-/assest/media/Rectangle%20196.png"
     },
     {
         title: "Visible Learning for Literacy",
         price: "$24",
-        image: "http://127.0.0.1:5501/assest/media/Rectangle%20196%20(1).png"
+        image: "http://127.0.0.1:5500/E-learning-Team2-/assest/media/Rectangle%20196%20(1).png"
     },
     {
         title: "The New Rules of Work",
         price: "$24",
-        image: "http://127.0.0.1:5501/assest/media/Rectangle%20196%20(2).png"
+        image: "http://127.0.0.1:5500/E-learning-Team2-/assest/media/Rectangle%20196%20(2).png"
     },
     {
         title: "Pivot",
         price: "$24",
-        image: "http://127.0.0.1:5501/assest/media/Rectangle%20196%20(3).png"
+        image: "http://127.0.0.1:5500/E-learning-Team2-/assest/media/Rectangle%20196%20(3).png"
     },
     {
         title: "Learning & Development",
         price: "$24",
-        image: "http://127.0.0.1:5501/assest/media/Rectangle%20196%20(4).png"
+        image: "http://127.0.0.1:5500/E-learning-Team2-/assest/media/Rectangle%20196%20(4).png"
     },
     {
         title: "Learning & Development",
         price: "$24",
-        image: "http://127.0.0.1:5501/assest/media/Rectangle%20196.png"
+        image: "http://127.0.0.1:5500/E-learning-Team2-/assest/media/Rectangle%20196.png"
     },
 ];
 
