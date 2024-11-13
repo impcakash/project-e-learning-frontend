@@ -19,5 +19,5 @@ function Membership() {
   );
 }
 
-export default App;
+export default Membership;
 
