@@ -1,0 +1,139 @@
+.hb7_box_1 {
+  margin: 50px auto 20px auto;
+  background: url("../assests/side-wave_background.jpg");
+  padding: 100px 20px 20px 20px;
+  background-size: 70% 100%;
+  background-repeat: no-repeat;
+}
+
+.hb7_box_2 {
+  max-width: 1100px;
+  margin: auto;
+  padding: 20px;
+}
+
+.hb7_head_1 {
+  color: rgba(0, 0, 0, 0.827);
+  font-weight: 600;
+  font-size: 37px;
+  line-height: 44px;
+}
+
+.hb7_head_2 {
+  color: rgba(0, 0, 0, 0.54);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.hb7_box_3 {
+  max-width: 1100px;
+  margin: 40px auto;
+  display: block;
+}
+
+.hb7_box_title_1 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 100px;
+}
+
+.hb7_box_title_1_h4 {
+  color: rgb(33, 37, 41);
+  font-size: 19px;
+  line-height: 23px;
+  font-weight: 400;
+}
+
+.hb7_box_title_1_p {
+  color: rgb(0, 188, 212);
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+}
+
+.hb7_box_list_data {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 300px;
+  margin: 20px 10px 90px 10px;
+}
+
+.hb7_box_book {
+  height: 100%;
+  background-color: rgb(255, 255, 255);
+  border-radius: 20px;
+  transform: rotate(-10deg);
+  padding: 8px;
+  margin: 10px;
+}
+
+.hb7_box_book .hb7_book_data_1 {
+  background-color: #83efc7ee;
+  height: 100%;
+  padding: 8px;
+  border-radius: 10px;
+}
+
+.hb7_box_book_img {
+  margin: 0px 30px;
+}
+
+.hb7_box_book .hb7_book_data_2 {
+  padding: 4px;
+  width: 30px;
+  height: 100% !important;
+  border-radius: 5px;
+}
+
+.hb7_bg1 {
+  background-color: #ff6f00;
+}
+
+.hb7_bg2 {
+  background-color: #ff8374;
+}
+
+.hb7_bg3 {
+  background-color: #b45a1b;
+}
+
+.hb7_bg4 {
+  background-color: #ffb300;
+}
+
+.hb7_bg5 {
+  background-color: #c583ff;
+}
+
+.hb7_bg6 {
+  background-color: #00a8ff;
+}
+
+.hb7_bg7 {
+  background-color: #6db4a7;
+}
+
+.hb7_box_book .hb7_book_data_2 div {
+  width: 200px;
+  transform: rotate(90deg);
+  transform-origin: left 23px;
+  text-align: center;
+  color: white;
+}
+
+@media (max-width: 768px) {
+  .hb7_box_1 {
+    display: none;
+  }
+}
+
+@media (max-width: 1024px) {
+  .hb7_box_book_img {
+    display: none;
+  }
+}

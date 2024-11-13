@@ -1,0 +1,44 @@
+/* .hb5_border1 {
+    border: 2px solid red;
+} */
+
+/* .hb5_border2 {
+    border: 2px solid purple;
+} */
+
+.hb5_box_head {
+    color: rgb(37, 38, 65);
+    font-size: 27px;
+    font-weight: 500;
+    line-height: 45px;
+}
+
+.hb5_box_head_1 {
+    color: rgb(73, 187, 189);
+}
+
+.hb5_box_details {
+    color: rgb(105, 105, 132);
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    max-width: 90%;
+}
+
+@media (max-width: 768px) {
+    .hb5_box_details {
+        max-width: 95%;
+    }
+}
+
+.hb5_box_link {
+    text-decoration: underline;
+    color: rgb(105, 105, 132);
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+}
+
+.hb5_pic {
+    border-radius: 10px;
+}
