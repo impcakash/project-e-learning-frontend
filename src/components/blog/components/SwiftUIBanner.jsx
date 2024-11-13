@@ -1,5 +1,5 @@
 import React from 'react';
-import grp from "../assets/group.png";
+import grp from "../assests/group.png";
 
 function SwiftUIBanner() {
   return (

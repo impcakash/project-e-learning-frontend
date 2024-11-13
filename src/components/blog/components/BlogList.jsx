@@ -1,9 +1,9 @@
 import React from 'react';
 
-import img1 from "../assets/img1.png";
-import img2 from "../assets/img2.png";
-import img3 from "../assets/img3.png";
-import img4 from "../assets/img4.png";
+import img1 from "../assests/img1.png";
+import img2 from "../assests/img2.png";
+import img3 from "../assests/img3.png";
+import img4 from "../assests/img4.png";
 
 
 function BlogList() {
