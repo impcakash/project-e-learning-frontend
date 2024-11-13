@@ -5,6 +5,7 @@ import { Home_box4 } from "./components/Home_box4";
 import { Home_box5 } from "./components/Home_box5";
 import { Home_box6 } from "./components/Home_box6";
 import { Home_box7 } from "./components/Home_box7";
+import { Home_box8 } from "./components/Home_box8";
 
 export const Homepage = () => {
   return (
@@ -16,6 +17,7 @@ export const Homepage = () => {
       <Home_box5 />
       <Home_box6 />
       <Home_box7 />
+      <Home_box8 />
     </>
   );
 };
