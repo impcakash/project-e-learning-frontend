@@ -1,6 +1,5 @@
 import "./App.css";
-import Meeting from "./components/other_section/Meeting/Meeting";
-// import { Homepage } from "./components/home/Homepage";
+import { Homepage } from "./components/home/Homepage";
 // import Navbar2 from './components/navbar/components/Nav2.jsx';
 // import Component1 from "./components/literature/components/Component1";
 // import Component2 from "./components/literature/components/Component2";
@@ -39,6 +38,8 @@ function App() {
 
       {/* OTHERS=> CHECKOUT PAGE */}
       {/* <CheckoutMain/> */}
+
+      <CourseCalender />
     </>
   );
 }

@@ -1,6 +1,5 @@
-import React from 'react';
-import Sidebar from './components/sidebar';
-import AdobePrototype from './components/AdobePrototype';
+import Sidebar from "./components/sidebar";
+import AdobePrototype from "./components/AdobePrototype";
 
 const CourseCalender = () => {
   return (
