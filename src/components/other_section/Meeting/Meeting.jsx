@@ -42,6 +42,7 @@ const Meeting = () => {
           <img src={img4} alt="" />  
          </div>
          </div>
+         {/* .. */}
               
                 <div className='icons_u'>
                     <div className=" absolute flex justify-center bg-gray-100 rounded-full p-2 space-x-5 shadow-lg w-2/5  mr-64 my-80">
