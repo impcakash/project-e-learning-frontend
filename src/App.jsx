@@ -1,10 +1,8 @@
 import "./App.css";
 import { Homepage } from "./components/home/Homepage";
-<<<<<<< HEAD
 import { Calendar_01 } from "./components/other_section/Calender_01/Calendar_01";
 import CourseCalender from "./components/other_section/Course_Calender/CourseCalender";
-=======
->>>>>>> a286d3b1f48f698f3ef4ecfb53a85f56f8ba531d
+
 // import Navbar2 from './components/navbar/components/Nav2.jsx';
 // import Component1 from "./components/literature/components/Component1";
 // import Component2 from "./components/literature/components/Component2";
@@ -12,7 +10,6 @@ import CourseCalender from "./components/other_section/Course_Calender/CourseCal
 // import Footer from './components/footer/Footer.jsx';
 // import Login from './components/navbar/components/Login.jsx';
 // import Xyz from "./components/other_section/Meeting/xyz";
-
 
 function App() {
   return (
@@ -23,7 +20,7 @@ function App() {
       <Component3 />
       <Footer/>
       <Login/> */}
-      <Meeting />
+      {/* <Meeting /> */}
       {/* <Xyz /> */}
 
       {/* <Homepage /> */}
