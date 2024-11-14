@@ -1,6 +1,3 @@
-
-
-
 import './Meeting.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faVideo, faMicrophone, faPhone, faDesktop, faArrowUpRightFromSquare } from '@fortawesome/free-solid-svg-icons';
@@ -15,7 +12,6 @@ import img6 from '../Meeting/assets/img6.png';
 
 
 const Meeting = () => {
-
     const [activeTab, setActiveTab] = useState(null);
 
     const toggleTab = (index) => {
@@ -213,9 +209,4 @@ const Meeting = () => {
         </>
     )
 }
-
 export default Meeting;
-
-
-
-

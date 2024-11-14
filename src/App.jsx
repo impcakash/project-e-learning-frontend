@@ -1,12 +1,14 @@
 import "./App.css";
-import { Homepage } from "./components/home/Homepage";
+import Meeting from "./components/other_section/Meeting/Meeting";
+// import { Homepage } from "./components/home/Homepage";
 // import Navbar2 from './components/navbar/components/Nav2.jsx';
 // import Component1 from "./components/literature/components/Component1";
 // import Component2 from "./components/literature/components/Component2";
 // import Component3 from './components/literature/components/Component3'
 // import Footer from './components/footer/Footer.jsx';
 // import Login from './components/navbar/components/Login.jsx';
-// import Xyz from "./components/other_section/Meeting/xyz";
+
+
 
 
 function App() {
@@ -18,8 +20,8 @@ function App() {
       <Component3 />
       <Footer/>
       <Login/> */}
-      <Meeting />
-      {/* <Xyz /> */}
+     <Meeting />
+  
 
       {/* <Homepage /> */}
 
@@ -39,7 +41,7 @@ function App() {
       {/* OTHERS=> CHECKOUT PAGE */}
       {/* <CheckoutMain/> */}
 
-      <CourseCalender />
+      {/* <CourseCalender /> */}
     </>
   );
 }
