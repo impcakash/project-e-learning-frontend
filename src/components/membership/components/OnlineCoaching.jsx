@@ -1,6 +1,6 @@
 import React from 'react';
 
-const CoachingBanner = () => {
+const OnlineCoaching = () => {
   return (
     <div className="bg-slate-800 text-white rounded-xl p-14 shadow-lg max-w-6xl mx-auto my-10 text-center">
       <h2 className="text-2xl font-semibold mb-4">
@@ -16,4 +16,4 @@ const CoachingBanner = () => {
   );
 };
 
-export default CoachingBanner;
+export default OnlineCoaching;

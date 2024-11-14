@@ -1,9 +1,9 @@
 import React from 'react';
-import Blog01 from "../assets/blog-01.png";
-import Blog02 from "../assets/blog-02.png";
-import Blog03 from "../assets/blog-03.png";
-import Blog04 from "../assets/blog-04.png";
-import Logo1 from "../assets/logo1.png";
+import Blog01 from "../assests/blog-01.png";
+import Blog02 from "../assests/blog-02.png";
+import Blog03 from "../assests/blog-03.png";
+import Blog04 from "../assests/blog-04.png";
+import Logo1 from "../assests/logo1.png";
 
 const MarketingArticles = () => {
   const articles = [

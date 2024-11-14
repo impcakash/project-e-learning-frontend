@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 
-const CoachingFeatures = () => {
+const CoachingLessons = () => {
   const [expandedFeature, setExpandedFeature] = useState(null);
 
   const features = [
@@ -46,7 +46,7 @@ const CoachingFeatures = () => {
                 <span className="text-teal-500 mr-3">
                   <i className="fas fa-circle"></i>
                 </span>
-                <span>{feature.title}</span>
+                <span className='text-left'>{feature.title}</span>
               </div>
               <span className="text-gray-600">
                 <i className={`fas ${expandedFeature === index ? 'fa-chevron-up' : 'fa-chevron-down'}`}></i>
@@ -64,4 +64,4 @@ const CoachingFeatures = () => {
   );
 };
 
-export default CoachingFeatures;
+export default CoachingLessons;
