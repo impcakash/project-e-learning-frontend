@@ -2,7 +2,7 @@ import React from 'react';
 
 const AdobePrototype = () => {
     return (
-        <div className="py-6 px-2 max-w-auto bg-white">
+        <div className="py-6 max-w-auto bg-white">
             {/* Header Section */}
             <div className="bg-teal-500 p-6 py-2 text-white">
                 <h1 className="text-3xl mt-6">Learn about Adobe XD & Prototyping</h1>

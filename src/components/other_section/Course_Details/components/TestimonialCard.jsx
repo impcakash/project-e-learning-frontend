@@ -3,8 +3,8 @@ import CardImg from '../assests/082c2e2832481561feec93a5e5c5e8d6.png'
 
 const TestimonialCard = () => {
   return (
-    <div className="p-8 flex justify-center">
-      <div className="bg-orange-200 rounded-lg p-6 w-full max-w-5xl flex items-start">
+    <div className="bg-blue-50 p-2 md:p-10 flex justify-center">
+      <div className="bg-orange-200 rounded-lg p-6 py-12 w-full max-w-full flex items-start">
         {/* Avatar */}
         <img
           src={CardImg} // Replace with actual image URL

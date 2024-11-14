@@ -2,7 +2,7 @@ import React from 'react';
 
 const PricingCard = ({ title, price, duration, features, buttonText, buttonColor, isBest, iconColor }) => {
   return (
-    <div className="bg-white border-gray-300 border-r border-b drop-shadow-lg rounded-lg p-8 w-full max-w-xs mx-auto transform transition-transform duration-300 ease-in hover:scale-105 hover:shadow-2xl flex flex-col items-start md:items-center min-h-[500px] relative">
+    <div className="bg-white border-gray-300 border-r border-b drop-shadow-lg rounded-lg p-8 w-full max-w-xs mx-auto transform transition-transform duration-300 ease-in hover:scale-105 hover:translate-y-[-10px] hover:shadow-2xl flex flex-col items-start md:items-center min-h-[500px] relative">
       <div className="flex justify-between w-full items-center mb-4">
         <h3 className="text-teal-600 text-lg font-semibold">{title}</h3>
         {isBest && (
