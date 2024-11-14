@@ -1,0 +1,25 @@
+.rb1_text_head {
+  color: rgb(37, 38, 65);
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 27px;
+}
+
+.rb1_text_detail {
+  color: rgb(105, 105, 132);
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 20px;
+}
+
+.rb1_btn {
+    float: right;
+    width: 150px;
+    background-color: #49BBBD;
+    padding: 10px 50px;
+    border-radius: 10px;
+    color: #ffffff;
+    font-size: 15px;
+    margin: 20px 0 10px 0;
+    border: none;
+}
