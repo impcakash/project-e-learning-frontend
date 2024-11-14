@@ -2,6 +2,7 @@ import "./App.css";
 import { Calendar_01 } from "./components/other_section/Calender_01/Calendar_01.jsx";
 import { Calendar_02 } from "./components/other_section/Calender_02/Calendar_02.jsx";
 import { Homepage } from "./components/home/Homepage";
+import Courses_nav from "./components/courses/components/Courses_nav.jsx";
 import Navbar2 from "./components/navbar/components/Nav2.jsx";
 import Component1 from "./components/literature/components/Component1";
 import Component2 from "./components/literature/components/Component2";
@@ -36,6 +37,9 @@ function App() {
 
       {/* <Calendar_01 /> */}
       {/* <Calendar_02 /> */}
+
+      {/* viqar=> course page */}
+      {/* <Courses_nav /> */}
 
       {/*  */}
       {/* <Footer /> */}
