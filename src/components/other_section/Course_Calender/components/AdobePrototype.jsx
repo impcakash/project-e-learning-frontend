@@ -1,5 +1,3 @@
-import React from 'react';
-
 const AdobePrototype = () => {
     return (
         <div className="py-6 max-w-auto bg-white">
@@ -63,7 +61,7 @@ const AdobePrototype = () => {
                 </div>
             </div>
         </div>
-    );
+  );
 };
 
 export default AdobePrototype;
