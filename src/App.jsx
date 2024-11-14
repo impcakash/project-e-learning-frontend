@@ -11,6 +11,9 @@ import Footer from "./components/footer/Footer.jsx";
 import Login from "./components/navbar/components/Login.jsx";
 import Meeting from "./components/other_section/Meeting/Meeting";
 
+import Blog from "./components/blog/Blog.jsx";
+import {CheckoutMain} from "./components/other_section/Checkout/CheckoutMain.jsx";
+
 function App() {
   return (
     <>
@@ -27,12 +30,16 @@ function App() {
 
       {/* <Homepage /> */}
 
+{/*-------------- MEDHAVI ----------------------------- */}
       {/* BLOGG PAGEE */}
       {/* <Blog/> */}
 
       {/* OTHERS=> CHECKOUT PAGE */}
       {/* <CheckoutMain/> */}
 
+      {/* OTHERS=> COURCE DETAILS */}
+
+{/* ---------------------------------------------------- */}
       {/* <CourseCalender /> */}
 
       {/* <Calendar_01 /> */}
