@@ -1,22 +1,20 @@
 import "./App.css";
-// import Course_Details from "./components/other_section/Course_Details2/Course_Details";
-// import { Homepage } from "./components/home/Homepage";
-// import Navbar2 from './components/navbar/components/Nav2.jsx';
-// import Navbar from "./components/navbar/components/Nav1.jsx";
-// import Component1 from "./components/literature/components/Component1";
-// import Component2 from "./components/literature/components/Component2";
-// import Component3 from './components/literature/components/Component3'
-// import Footer from './components/footer/Footer.jsx';
-// import Login from './components/navbar/components/Login.jsx';
-// import Meeting from "./components/other_section/Meeting/Meeting";
+import Course_Details from "./components/other_section/Course_Details2/Course_Details";
+import { Homepage } from "./components/home/Homepage";
+import Navbar2 from "./components/navbar/components/Nav2.jsx";
+import Navbar from "./components/navbar/components/Nav1.jsx";
+import Component1 from "./components/literature/components/Component1";
+import Component2 from "./components/literature/components/Component2";
+import Component3 from "./components/literature/components/Component3";
+import Footer from "./components/footer/Footer.jsx";
+import Login from "./components/navbar/components/Login.jsx";
+import Meeting from "./components/other_section/Meeting/Meeting";
 
 function App() {
   return (
     <>
-  
-    
-        {/* <Navbar /> */}
-        {/* <Navbar2 /> */}
+      {/* <Navbar /> */}
+      {/* <Navbar2 /> */}
       {/* <Navbar2 />
       <Component1 />
       <Component2 />
@@ -27,7 +25,7 @@ function App() {
 
       {/* <Homepage /> */}
 
-{/*-------------- MEDHAVI ------------------------------ */}
+      {/*-------------- MEDHAVI ------------------------------ */}
 
       {/* BLOGG PAGEE */}
       {/* <Blog/> */}
@@ -38,7 +36,7 @@ function App() {
       {/* OTHERS=> COURSE_DETAILS2 PAGE */}
       {/* <Course_Details/> */}
 
-{/* ---------------------------------------------------- */}
+      {/* ---------------------------------------------------- */}
       {/* <CourseCalender /> */}
 
       {/* <Calendar_01 /> */}
