@@ -23,7 +23,7 @@ import CourseCalender from "./components/other_section/Course_Calender/CourseCal
 import Search from "./components/other_section/Search/Search.jsx";
 import CourseDtl from "./components/other_section/Course_Details/CourseDtl.jsx";
 import BlogDet from "./components/other_section/Blog_Detail/BlogDet.jsx";
-// import Component1 from "./components/literature/components/Component1.jsx";
+import Literature from "./components/literature/components/Literature.jsx";
 import Login from "./components/navbar/components/Login.jsx";
 
 const router = createBrowserRouter(
@@ -33,7 +33,7 @@ const router = createBrowserRouter(
       <Route path="courses" element={<Courses_nav />} />
       <Route path="membership" element={<Membership />} />
       <Route path="blog" element={<Blog />} />
-      <Route path="literature" element />
+      <Route path="literature" element={<Literature />} />
       <Route path="search" element={<Search />} />
       <Route path="meeting" element={<Meeting />} />
       <Route path="courseDetails" element={<Course_Details />} />
