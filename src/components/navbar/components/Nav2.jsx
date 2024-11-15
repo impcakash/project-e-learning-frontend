@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useState } from "react";
 
 function Nav2() {
   const [isOpen, setIsOpen] = useState(false);
@@ -7,10 +7,12 @@ function Nav2() {
     <nav className="bg-white shadow-md">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
-          
           {/* Logo */}
           <div className="flex-shrink-0">
-            <a href="#" className="flex items-center text-teal-400 text-2xl font-bold">
+            <a
+              href="#"
+              className="flex items-center text-teal-400 text-2xl font-bold"
+            >
               <div className="border-2 border-teal-400 rounded-full p-2">
                 <span className="text-teal-400">TOTC</span>
               </div>
@@ -18,7 +20,7 @@ function Nav2() {
           </div>
 
           {/* Desktop Menu Links */}
-          <div className="hidden md:flex space-x-10">
+          <div className="hidden md:flex space-x-6">
             <a href="#home" className="text-gray-600 hover:text-gray-800">Home</a>
             <a href="#courses" className="text-gray-600 hover:text-gray-800">Courses</a>
             <a href="#membership" className="text-gray-600 hover:text-gray-800">Membership</a>
@@ -28,7 +30,10 @@ function Nav2() {
 
 
           {/* Profile Section */}
-          <div className="hidden md:flex items-center space-x-2 cursor-pointer" onClick={() => setIsOpen(!isOpen)}>
+          <div
+            className="hidden md:flex items-center space-x-2 cursor-pointer"
+            onClick={() => setIsOpen(!isOpen)}
+          >
             {/* Profile Image */}
             <img
               src="http://127.0.0.1:5500/E-learning-Team2-/assest/media/image%2012.png" // Placeholder image URL; replace with actual profile image URL
@@ -45,10 +50,15 @@ function Nav2() {
               viewBox="0 0 24 24"
               xmlns="http://www.w3.org/2000/svg"
             >
-              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M19 9l-7 7-7-7" />
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth="2"
+                d="M19 9l-7 7-7-7"
+              />
             </svg>
           </div>
-          
+
           {/* Mobile Menu Button */}
           <div className="md:hidden flex items-center">
             <button
@@ -56,11 +66,26 @@ function Nav2() {
               className="text-gray-600 hover:text-gray-800 focus:outline-none"
             >
               {/* Hamburger Icon */}
-              <svg className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <svg
+                className="h-6 w-6"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+              >
                 {isOpen ? (
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M6 18L18 6M6 6l12 12" />
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth="2"
+                    d="M6 18L18 6M6 6l12 12"
+                  />
                 ) : (
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h16M4 18h16" />
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth="2"
+                    d="M4 6h16M4 12h16M4 18h16"
+                  />
                 )}
               </svg>
             </button>
@@ -76,15 +101,6 @@ function Nav2() {
           <a href="#membership" className="block px-4 py-2 text-gray-600 hover:bg-gray-100">Membership</a>
           <a href="#blog" className="block px-4 py-2 text-gray-600 hover:bg-gray-100">Blog</a>
           <a href="#literature" className="block px-4 py-2 text-gray-600 hover:bg-gray-100">Literature</a>
-          <a href="#literature" className="block px-4 py-2 text-gray-600 hover:bg-gray-100">Search</a>
-          <a href="#literature" className="block px-4 py-2 text-gray-600 hover:bg-gray-100">Meeting</a>
-          <a href="#literature" className="block px-4 py-2 text-gray-600 hover:bg-gray-100">Course Details</a>
-          <a href="#literature" className="block px-4 py-2 text-gray-600 hover:bg-gray-100">Blog Details</a>
-          <a href="#literature" className="block px-4 py-2 text-gray-600 hover:bg-gray-100">Checkout</a>
-          <a href="#literature" className="block px-4 py-2 text-gray-600 hover:bg-gray-100">Calendar 01</a>
-          <a href="#literature" className="block px-4 py-2 text-gray-600 hover:bg-gray-100">Calendar 02</a>
-          <a href="#literature" className="block px-4 py-2 text-gray-600 hover:bg-gray-100">Course Calendar</a>
-          <a href="#literature" className="block px-4 py-2 text-gray-600 hover:bg-gray-100">Full View Calendar</a>
         </div>
       )}
     </nav>

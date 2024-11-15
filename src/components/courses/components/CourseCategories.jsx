@@ -1,5 +1,3 @@
-import React from 'react';
-
 const CourseCategories = () => {
   const categories = [
     // First Row Categories
@@ -16,8 +14,8 @@ const CourseCategories = () => {
           <path d="M17 3a2.85 2.83 0 1 1 4 4L7.5 20.5 2 22l1.5-5.5L17 3Z" />
         </svg>
       ),
-      title: 'Design',
-      color: 'bg-teal-50 text-teal-500',
+      title: "Design",
+      color: "bg-teal-50 text-teal-500",
     },
     {
       icon: (
@@ -34,8 +32,8 @@ const CourseCategories = () => {
           <line x1="12" y1="17" x2="12" y2="21" />
         </svg>
       ),
-      title: 'Development',
-      color: 'bg-blue-50 text-blue-500',
+      title: "Development",
+      color: "bg-blue-50 text-blue-500",
     },
     {
       icon: (
@@ -52,8 +50,8 @@ const CourseCategories = () => {
           <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z" />
         </svg>
       ),
-      title: 'Development',
-      color: 'bg-sky-50 text-sky-500',
+      title: "Development",
+      color: "bg-sky-50 text-sky-500",
     },
     {
       icon: (
@@ -69,8 +67,8 @@ const CourseCategories = () => {
           <path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16" />
         </svg>
       ),
-      title: 'Business',
-      color: 'bg-teal-50 text-teal-500',
+      title: "Business",
+      color: "bg-teal-50 text-teal-500",
     },
     // Second Row Categories
     {
@@ -87,8 +85,8 @@ const CourseCategories = () => {
           <path d="M3 20v-2h18v2z" />
         </svg>
       ),
-      title: 'Marketing',
-      color: 'bg-orange-50 text-orange-500',
+      title: "Marketing",
+      color: "bg-orange-50 text-orange-500",
     },
     {
       icon: (
@@ -110,8 +108,8 @@ const CourseCategories = () => {
           <path d="M17 7h5" />
         </svg>
       ),
-      title: 'Photography',
-      color: 'bg-pink-50 text-pink-500',
+      title: "Photography",
+      color: "bg-pink-50 text-pink-500",
     },
     {
       icon: (
@@ -127,8 +125,8 @@ const CourseCategories = () => {
           <circle cx="16" cy="16" r="7" />
         </svg>
       ),
-      title: 'Acting',
-      color: 'bg-gray-200 text-gray-600',
+      title: "Acting",
+      color: "bg-gray-200 text-gray-600",
     },
     {
       icon: (
@@ -144,31 +142,33 @@ const CourseCategories = () => {
           <path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16" />
         </svg>
       ),
-      title: 'Business',
-      color: 'bg-teal-50 text-teal-500',
+      title: "Business",
+      color: "bg-teal-50 text-teal-500",
     },
   ];
 
   return (
     <div className="container mx-auto px-4 py-8">
-      <h1 className="text-3xl font-bold text-gray-900 mb-8">
+      <h1 className="text-3xl text-left font-semibold text-gray-900 mb-8">
         Choice favourite course from top Category
       </h1>
-      
+
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
         {categories.slice(0, 4).map((category, index) => (
           <div
             key={`top-${index}`}
             className="bg-white rounded-lg shadow-sm p-6 hover:shadow-md transition-shadow duration-300"
           >
-            <div className={`w-16 h-16 rounded-lg ${category.color} flex items-center justify-center mb-4`}>
+            <div
+              className={`m-auto w-16 h-16 rounded-lg ${category.color} flex items-center justify-center mb-4`}
+            >
               {category.icon}
             </div>
-            
+
             <h2 className="text-xl font-bold text-gray-900 mb-3">
               {category.title}
             </h2>
-            
+
             <p className="text-gray-500 text-sm text-center">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmodadipiscing elit, sed do eiusmod
@@ -183,14 +183,16 @@ const CourseCategories = () => {
             key={`bottom-${index}`}
             className="bg-white rounded-lg shadow-sm p-6 hover:shadow-md transition-shadow duration-300"
           >
-            <div className={`w-16 h-16 rounded-lg ${category.color} flex items-center justify-center mb-4`}>
+            <div
+              className={`m-auto w-16 h-16 rounded-lg ${category.color} flex items-center justify-center mb-4`}
+            >
               {category.icon}
             </div>
-            
+
             <h2 className="text-xl font-bold text-gray-900 mb-3">
               {category.title}
             </h2>
-            
+
             <p className="text-gray-500 text-sm text-center">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmodadipiscing elit, sed do eiusmod
