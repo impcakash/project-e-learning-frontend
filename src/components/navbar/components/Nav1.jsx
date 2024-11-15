@@ -9,20 +9,20 @@ function Navbar() {
         <div className="flex justify-between items-center h-16">
           {/* Logo */}
           <div className="flex-shrink-0">
-            <a href="#" className="text-white text-2xl font-bold flex items-start">
+            <div className="text-white text-2xl font-bold flex items-start">
               <div className="bg-white p-1 rounded-full">
                 <span className="text-teal-400 m-90">TOTC</span>
               </div>
-            </a>
+            </div>
           </div>
 
           {/* Desktop Menu Links */}
           <div className="hidden md:flex space-x-6">
-            <a href="#home" className="text-white hover:text-gray-200">Home</a>
-            <a href="#courses" className="text-white hover:text-gray-200">Courses</a>
-            <a href="#membership" className="text-white hover:text-gray-200">Membership</a>
-            <a href="#blog" className="text-white hover:text-gray-200">Blog</a>
-            <a href="#literature" className="text-white hover:text-gray-200">Literature</a>
+            <div  className="text-white hover:text-gray-200">Home</div>
+            <div  className="text-white hover:text-gray-200">Courses</div>
+            <div  className="text-white hover:text-gray-200">Membership</div>
+            <div className="text-white hover:text-gray-200">Blog</div>
+            <div  className="text-white hover:text-gray-200">Literature</div>
             
             {/* Dropdown Menu */}
             <div className="relative">
@@ -33,16 +33,16 @@ function Navbar() {
                 Others
               </button>
               {isOpen && (
-                <div className="absolute left-0 mt-2 w-48 bg-white rounded-md shadow-lg py-2  ">
-                  <a href="#option1" className="block px-4 py-2 text-gray-700 hover:bg-teal-100">Search</a>
-                  <a href="#option2" className="block px-4 py-2 text-gray-700 hover:bg-teal-100">Meeting 2</a>
-                  <a href="#option3" className="block px-4 py-2 text-gray-700 hover:bg-teal-100">Course Details</a>
-                  <a href="#option4" className="block px-4 py-2 text-gray-700 hover:bg-teal-100">Blog Details</a>
-                  <a href="#option5" className="block px-4 py-2 text-gray-700 hover:bg-teal-100">Checkout</a>
-                  <a href="#option6" className="block px-4 py-2 text-gray-700 hover:bg-teal-100">Calender 01</a>
-                  <a href="#option7" className="block px-4 py-2 text-gray-700 hover:bg-teal-100">Calender 02</a>
-                  <a href="#option8" className="block px-4 py-2 text-gray-700 hover:bg-teal-100">Course Calender</a>
-                  <a href="#option9" className="block px-4 py-2 text-gray-700 hover:bg-teal-100">Full View Calender</a>
+                <div className="absolute left-0 mt-2 w-48 bg-white rounded-md shadow-lg py-2 z-10  ">
+                  <div  className="block px-4 py-2 text-gray-700 hover:bg-teal-100">Search</div>
+                  <div  className="block px-4 py-2 text-gray-700 hover:bg-teal-100">Meeting 2</div>
+                  <div  className="block px-4 py-2 text-gray-700 hover:bg-teal-100">Course Details</div>
+                  <div  className="block px-4 py-2 text-gray-700 hover:bg-teal-100">Blog Details</div>
+                  <div  className="block px-4 py-2 text-gray-700 hover:bg-teal-100">Checkout</div>
+                  <div  className="block px-4 py-2 text-gray-700 hover:bg-teal-100">Calender 01</div>
+                  <div className="block px-4 py-2 text-gray-700 hover:bg-teal-100">Calender 02</div>
+                  <div  className="block px-4 py-2 text-gray-700 hover:bg-teal-100">Course Calender</div>
+                  <div  className="block px-4 py-2 text-gray-700 hover:bg-teal-100">Full View Calender</div>
                 </div>
               )}
             </div>
@@ -80,20 +80,20 @@ function Navbar() {
       {/* Mobile Menu */}
       {isOpen && (
         <div className="md:hidden bg-teal-400">
-          <a href="#home" className="block px-4 py-2 text-white">Home</a>
-          <a href="#courses" className="block px-4 py-2 text-white">Courses</a>
-          <a href="#membership" className="block px-4 py-2 text-white">Membership</a>
-          <a href="#blog" className="block px-4 py-2 text-white">Blog</a>
-          <a href="#literature" className="block px-4 py-2 text-white">Literature</a>
-          <a href="#others" className="block px-4 py-2 text-white">Search</a>
-          <a href="#others" className="block px-4 py-2 text-white">Meeting</a>
-          <a href="#others" className="block px-4 py-2 text-white">Course Details</a>
-          <a href="#others" className="block px-4 py-2 text-white">Blog Details</a>
-          <a href="#others" className="block px-4 py-2 text-white">Checkout</a>
-          <a href="#others" className="block px-4 py-2 text-white">Calender 01</a>
-          <a href="#others" className="block px-4 py-2 text-white">Calender 02</a>
-          <a href="#others" className="block px-4 py-2 text-white">Course Details</a>
-          <a href="#others" className="block px-4 py-2 text-white">Full View Calender</a>
+          <div  className="block px-4 py-2 text-white">Home</div>
+          <div  className="block px-4 py-2 text-white">Courses</div>
+          <div  className="block px-4 py-2 text-white">Membership</div>
+          <div  className="block px-4 py-2 text-white">Blog</div>
+          <div  className="block px-4 py-2 text-white">Literature</div>
+          <div  className="block px-4 py-2 text-white">Search</div>
+          <div  className="block px-4 py-2 text-white">Meeting</div>
+          <div  className="block px-4 py-2 text-white">Course Details</div>
+          <div  className="block px-4 py-2 text-white">Blog Details</div>
+          <div  className="block px-4 py-2 text-white">Checkout</div>
+          <div  className="block px-4 py-2 text-white">Calender 01</div>
+          <div  className="block px-4 py-2 text-white">Calender 02</div>
+          <div  className="block px-4 py-2 text-white">Course Details</div>
+          <div  className="block px-4 py-2 text-white">Full View Calender</div>
           <div className="flex justify-around py-4">
             <button className="bg-white text-black font-medium px-4 py-1 rounded-full hover:bg-gray-100">
               Login

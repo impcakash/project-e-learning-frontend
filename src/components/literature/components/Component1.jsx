@@ -1,5 +1,9 @@
-
+import Component2 from './Component2.jsx';
+import Component3 from './Component3.jsx';
 import './Component1.css';
+import image1 from './../assests/image1.png';
+import image2 from './../assests/image2.png';
+
 
 const Component1 = () => {
 
@@ -7,12 +11,12 @@ const Component1 = () => {
     <div className="relative max-w-5=7xl mx-auto p-6 max-h-[350px]">
 
       <div className="relative max-w-7xl mx-auto p-6 max-h-[390px] overflow-hidden rounded-lg w-full">
-        <img src="http://127.0.0.1:5500/E-learning-Team2-/assest/media/Rectangle%20193.png" className="relative  top-50 left-0 w-full h-full object-cover opacity-70" />
+        <img src={image2} className="relative  top-50 left-0 w-full h-full object-cover opacity-70" />
 
         {/* Profile Circle with Avatar */}
         <div className="absolute -top-20 left-16">
           <img
-            src="http://127.0.0.1:5500/E-learning-Team2-/assest/media/Ellipse%20128.png"
+            src={image1}
             alt="Profile"
             className="w-56 h-56 rounded-full border-4 border-white my-36 "
           />
@@ -68,7 +72,10 @@ const Component1 = () => {
           </div>
         </div>
       </div>
+      <Component2 />
+      <Component3 />
     </div>
+    
   );
 };
 

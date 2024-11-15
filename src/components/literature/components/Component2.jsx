@@ -1,46 +1,56 @@
 import { useState } from "react";
 import Component2Book from './Component2Book';
+import img3 from '../assests/image3.png';
+import img4 from '../assests/image4.png';
+import img5 from '../assests/image5.png';
+import img6 from '../assests/image6.png';
+import img7 from '../assests/image7.png';
+import img8 from '../assests/img8.png';
+import img9 from '../assests/img9.png';
+import img10 from '../assests/img10.png';
+import img11 from '../assests/img11.png';
+import img12 from '../assests/img12.png';
 
 const images = {
-    About: "http://127.0.0.1:5500/E-learning-Team2-/assest/media/Rectangle%20196.png",
-    Course: "http://127.0.0.1:5500/E-learning-Team2-/assest/media/Rectangle%2032.png",
-    Notes: "http://127.0.0.1:5500/E-learning-Team2-/assest/media/Rectangle%2033.png",
-    Project: "http://127.0.0.1:5500/E-learning-Team2-/assest/media/Rectangle%2032%20(5).png",
-    Podcast: "http://127.0.0.1:5500/E-learning-Team2-/assest/media/Rectangle%2032%20(3).png",
-    Book: "http://127.0.0.1:5500/E-learning-Team2-/assest/media/Rectangle%20196.png",
-    Review: "http://127.0.0.1:5500/E-learning-Team2-/assest/media/Rectangle%2032%20(4).png",
+    About: img3,
+    Course: img8,
+    Notes: img9,
+    Project: img10,
+    Podcast: img11,
+    Book: img3,
+    Review: img12,
 };
 
 const books = [
     {
         title: "Build Your Dream Network",
         price: "$24",
-        image: "http://127.0.0.1:5500/E-learning-Team2-/assest/media/Rectangle%20196.png"
+        image: img3,
     },
     {
         title: "Visible Learning for Literacy",
         price: "$24",
-        image: "http://127.0.0.1:5500/E-learning-Team2-/assest/media/Rectangle%20196%20(1).png"
+        image: img4,
     },
     {
         title: "The New Rules of Work",
         price: "$24",
-        image: "http://127.0.0.1:5500/E-learning-Team2-/assest/media/Rectangle%20196%20(2).png"
+        image: img5,
     },
     {
         title: "Pivot",
         price: "$24",
-        image: "http://127.0.0.1:5500/E-learning-Team2-/assest/media/Rectangle%20196%20(3).png"
+        image: img6,
     },
     {
         title: "Learning & Development",
         price: "$24",
-        image: "http://127.0.0.1:5500/E-learning-Team2-/assest/media/Rectangle%20196%20(4).png"
+        image: img7,
     },
     {
         title: "Learning & Development",
         price: "$24",
-        image: "http://127.0.0.1:5500/E-learning-Team2-/assest/media/Rectangle%20196.png"
+        image: img3,
     },
 ];
 
@@ -53,7 +63,6 @@ function App() {
 
     return (
         <div className="min-h-screen bg-gray-100 p-4 md:p-8">
-            {/* Button Group */}
             <div className="flex flex-wrap space-x-2 md:space-x-6 mb-8 ml-10 sm:ml-20 md:ml-40">
                 {Object.keys(images).map((button) => (
                     <button
@@ -66,21 +75,21 @@ function App() {
                 ))}
             </div>
 
-            {/* Title */}
+
             <h1 className="text-xl sm:text-2xl md:text-3xl font-bold mb-8 ml-10 sm:ml-20 md:ml-40">
                 Literature Course
             </h1>
 
-            {/* Card Grid */}
+  
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-8 ml-5 sm:ml-10 md:ml-40 mr-5 sm:mr-10 md:mr-40">
-                {/* First Card with Dynamic Image */}
+
                 <Component2Book
                     book={{
                         ...books[0],
                         image: firstCardImage,
                     }}
                 />
-                {/* Remaining Cards */}
+
                 {books.slice(1).map((book, index) => (
                     <Component2Book key={index} book={book} />
                 ))}

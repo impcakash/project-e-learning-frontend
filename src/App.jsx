@@ -1,7 +1,8 @@
 import "./App.css";
-import Course_Details from "./components/other_section/Course_Details2/Course_Details";
+// import Course_Details from "./components/other_section/Course_Details2/Course_Details";
 // import { Homepage } from "./components/home/Homepage";
 // import Navbar2 from './components/navbar/components/Nav2.jsx';
+// import Navbar from "./components/navbar/components/Nav1.jsx";
 // import Component1 from "./components/literature/components/Component1";
 // import Component2 from "./components/literature/components/Component2";
 // import Component3 from './components/literature/components/Component3'
@@ -12,6 +13,10 @@ import Course_Details from "./components/other_section/Course_Details2/Course_De
 function App() {
   return (
     <>
+  
+    
+        {/* <Navbar /> */}
+        {/* <Navbar2 /> */}
       {/* <Navbar2 />
       <Component1 />
       <Component2 />
