@@ -212,7 +212,7 @@ const Meeting = () => {
             </div>
           </div>
 
-          <div className="sidebar2_u">
+          {/* <div className="sidebar2_u">
             <div className="max-w-md mx-auto mt-6 bg-white rounded-lg shadow-md p-7 ">
               <h2 className="text-xl font-semibold mb-5">Book for you</h2>
               <div className="grid grid-cols-2 gap-4  ">
@@ -235,8 +235,34 @@ const Meeting = () => {
                   </div>
                 </div>
               </div>
-            </div>
-          </div>
+            </div> */}
+          {/* </div> */}
+          <div className="sidebar2_u">
+  <div className="max-w-md mx-auto mt-6 bg-white rounded-lg shadow-md p-7">
+    <h2 className="text-xl font-semibold mb-5">Book for you</h2>
+    <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+      <div className="benefit_u">
+        <div className="bg-gray-50 rounded-lg shadow-sm flex flex-col items-center p-4">
+          <img className="m w-46 h-44 sm:w-54 sm:h-54" src={img5} alt="" />
+          <p className="text-gray-700 font-semibold text-center mt-2">
+            All Benefits of PLUS
+          </p>
+          <p className="text-teal-500 font-bold">$24</p>
+        </div>
+      </div>
+      <div className="benefit2_u">
+        <div className="bg-gray-50 rounded-lg shadow-sm p-4 flex flex-col items-center">
+          <img className="w-46 h-44 sm:w-54 sm:h-54" src={img6} alt="" />
+          <p className="text-gray-700 font-semibold text-center mt-2">
+            All Benefits of PLUS
+          </p>
+          <p className="text-teal-500 font-bold">$24</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
         </div>
       </div>
     </>

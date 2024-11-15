@@ -1,5 +1,5 @@
 .bdy_u{
-  background-color: rgb(216, 239, 248);
+  background-color: rgb(202, 235, 248);
   height: 1050px;
   padding: 20px;
 }
@@ -37,102 +37,49 @@
   border-radius: 8px;
  
 }
-@media (max-width: 768px){
+@media (max-width:768px){
   .bdy_u{
-    background-color: rgb(217, 244, 250);
+    background-color: rgb(221, 251, 255);
     height: 300vh;
-    width: 1100px;
+   min-width: 140vh;
     
   }
-  .bdy_u2 {
-    width: 50rem;
-    margin-left: 20px;
+.bdy_u2 {
+    border-radius: 10px;
+    width: 73rem;
+    height: 200px;
+    margin-left: -0px;
+    
   }
   .image2_u{
-    margin: -55px 0px 0px 73vh;
+    margin: -50px 0px 0px 98vh;
     width: 60px;
+  
   }
-  .image3_u{
-    width: 800px;
-    margin-left: 20px;
-    /* width: 40vh;
+  /* .image3_u{
+    width: 28vh;
     margin-top: -85px;
     margin-left: -8px;
-    position: absolute; */
-  }
+    position: absolute;
+  } */
   .icons_u{
-    margin-top: 22vh;
-    justify-content: center;
-    display: flex;
+    margin-top: 30em;
+    margin-left: 55vh;
+}
+.sidebar_u{
+  margin-top: 120vh;
+  /* background-color: white; */
+  border-radius: 8px;
+  margin-left: -900px;
+  width: 60vh;
+  padding: 30px;
+ 
+}
+.sidebar2_u{
+  margin-left: -900px;
+  width: 503px;
+   padding: -80px;
+     
   }
-  .sidebar_u{
-    margin-top: 480px;
-    background-color: white;
-    border-radius: 8px;
-    margin-left: -90vh;
-    width: 550px;
-    padding: 20px;
-    height: 57vh;
-   
-  }
-  .sidebar2_u{
-    margin-left: -900px;
-    width: 700px;
-    /* display: flex;       
-    flex-direction: column;  */
-    /* gap: 16px;  */
 
-    } }
-
-  /* 
-   
-
-      /* @media (max-width: 640px){
-        .bdy_u{
-          background-color: rgb(197, 241, 245);
-          height: 1300px;
-                   
-        }
-        .bdy_u2 {
-            border-radius: 10px;
-            width: 16rem;
-            height: 200px;
-            margin-left: -10px;
-            
-          }
-          .image2_u{
-            margin: -90px 0px 0px 200px;
-            width: 40px;
-          
-          }
-        .image3_u{
-            width: 28vh;
-            margin-top: -85px;
-            margin-left: -8px;
-            position: absolute;
-          }
-          .icons_u{
-            margin-top: -10rem;
-            margin-left: 60px;
-            
-             }
-             .sidebar_u{
-              margin-top: 445px;
-              background-color: white;
-              border-radius: 8px;
-              margin-left: -1030px;
-              width: 254px;
-             
-            }
-            .sidebar2_u{
-              margin-left: -1030px;
-              width: 253px;
-              display: flex;       
-              flex-direction: column; 
-              gap: 16px;    
-              }
-            } */
-            
-          
-      
-    
+}
