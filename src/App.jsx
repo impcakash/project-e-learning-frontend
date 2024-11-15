@@ -1,4 +1,5 @@
 import "./App.css";
+import Course_Details from "./components/other_section/Course_Details2/Course_Details";
 // import { Homepage } from "./components/home/Homepage";
 // import Navbar2 from './components/navbar/components/Nav2.jsx';
 // import Component1 from "./components/literature/components/Component1";
@@ -21,14 +22,16 @@ function App() {
 
       {/* <Homepage /> */}
 
-{/*-------------- MEDHAVI ----------------------------- */}
+{/*-------------- MEDHAVI ------------------------------ */}
+
       {/* BLOGG PAGEE */}
       {/* <Blog/> */}
 
       {/* OTHERS=> CHECKOUT PAGE */}
       {/* <CheckoutMain/> */}
 
-      {/* OTHERS=> COURCE DETAILS */}
+      {/* OTHERS=> COURSE_DETAILS2 PAGE */}
+      {/* <Course_Details/> */}
 
 {/* ---------------------------------------------------- */}
       {/* <CourseCalender /> */}
