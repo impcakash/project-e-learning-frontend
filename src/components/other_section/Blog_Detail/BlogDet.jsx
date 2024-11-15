@@ -1,11 +1,13 @@
 import React from 'react';
+import img2 from '../../../images/img2.png';
+import img3 from '../../../images/img3.png';
 
 const BlogDetail = () => {
     return (
    
        <>
           <div>
-          <img src='http://127.0.0.1:5501/assest/media/main.png' />
+          <img src={img2} />
           </div>
       {/* </div> */}
       <div className="flex flex-col items-center p-6 md:p-10 min-h-screen">
@@ -36,7 +38,7 @@ const BlogDetail = () => {
           </div>
           <div className="flex items-center gap-4">
             <img
-              src="http://127.0.0.1:5501/assest/media/Group%20247.png"
+              src={img3}
               alt="Author"
               className="w-16 h-20 object-cover"
             />
