@@ -1,4 +1,5 @@
 import "./App.css";
+import Course_Details from "./components/other_section/Course_Details2/Course_Details";
 // import { Homepage } from "./components/home/Homepage";
 // import Navbar2 from './components/navbar/components/Nav2.jsx';
 // import Component1 from "./components/literature/components/Component1";
@@ -18,19 +19,10 @@ function App() {
       <Footer/>
       <Login/> */}
       {/* <Meeting /> */}
-      
 
       {/* <Homepage /> */}
 
-      {/* <div>
-        <a href="https://vite.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>E-Learning</h1> */}
+{/*-------------- MEDHAVI ------------------------------ */}
 
       {/* BLOGG PAGEE */}
       {/* <Blog/> */}
@@ -38,7 +30,20 @@ function App() {
       {/* OTHERS=> CHECKOUT PAGE */}
       {/* <CheckoutMain/> */}
 
+      {/* OTHERS=> COURSE_DETAILS2 PAGE */}
+      {/* <Course_Details/> */}
+
+{/* ---------------------------------------------------- */}
       {/* <CourseCalender /> */}
+
+      {/* <Calendar_01 /> */}
+      {/* <Calendar_02 /> */}
+
+      {/* viqar=> course page */}
+      {/* <Courses_nav /> */}
+
+      {/*  */}
+      {/* <Footer /> */}
     </>
   );
 }
