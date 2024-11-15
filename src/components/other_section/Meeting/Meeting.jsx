@@ -64,9 +64,9 @@ const Meeting = () => {
 {/* ..course contents.. */}
                 <div className='ml-[1020px]  '>
                     <div className="sidebar_u ">
-                        <div className="w-full max-w-md bg-red rounded-lg shadow-lg p-6 ">
+                        <div className="w-full max-w-md bg-red rounded-lg shadow-lg p-8 ">
                         
-                            <div className="flex items-center justify-between mb-4">
+                            <div className="flex items-center justify-between mb-6">
                                 <h2 className="text-xl font-semibold">Course Contents</h2>
 
                                 <button className="p-2 ronded-full bg-teal-50 hover:bg-teal-100">

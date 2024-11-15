@@ -18,13 +18,14 @@ function Nav2() {
           </div>
 
           {/* Desktop Menu Links */}
-          <div className="hidden md:flex space-x-6">
+          <div className="hidden md:flex space-x-10">
             <a href="#home" className="text-gray-600 hover:text-gray-800">Home</a>
             <a href="#courses" className="text-gray-600 hover:text-gray-800">Courses</a>
             <a href="#membership" className="text-gray-600 hover:text-gray-800">Membership</a>
             <a href="#blog" className="text-gray-600 hover:text-gray-800">Blog</a>
             <a href="#literature" className="text-gray-600 hover:text-gray-800">Literature</a>
           </div>
+
 
           {/* Profile Section */}
           <div className="hidden md:flex items-center space-x-2 cursor-pointer" onClick={() => setIsOpen(!isOpen)}>
@@ -34,6 +35,7 @@ function Nav2() {
               alt="Profile"
               className="w-10 h-10 rounded-full object-cover"
             />
+            
             {/* Profile Name and Dropdown */}
             <span className="text-gray-600 font-medium">Lina</span>
             <svg
@@ -74,6 +76,15 @@ function Nav2() {
           <a href="#membership" className="block px-4 py-2 text-gray-600 hover:bg-gray-100">Membership</a>
           <a href="#blog" className="block px-4 py-2 text-gray-600 hover:bg-gray-100">Blog</a>
           <a href="#literature" className="block px-4 py-2 text-gray-600 hover:bg-gray-100">Literature</a>
+          <a href="#literature" className="block px-4 py-2 text-gray-600 hover:bg-gray-100">Search</a>
+          <a href="#literature" className="block px-4 py-2 text-gray-600 hover:bg-gray-100">Meeting</a>
+          <a href="#literature" className="block px-4 py-2 text-gray-600 hover:bg-gray-100">Course Details</a>
+          <a href="#literature" className="block px-4 py-2 text-gray-600 hover:bg-gray-100">Blog Details</a>
+          <a href="#literature" className="block px-4 py-2 text-gray-600 hover:bg-gray-100">Checkout</a>
+          <a href="#literature" className="block px-4 py-2 text-gray-600 hover:bg-gray-100">Calendar 01</a>
+          <a href="#literature" className="block px-4 py-2 text-gray-600 hover:bg-gray-100">Calendar 02</a>
+          <a href="#literature" className="block px-4 py-2 text-gray-600 hover:bg-gray-100">Course Calendar</a>
+          <a href="#literature" className="block px-4 py-2 text-gray-600 hover:bg-gray-100">Full View Calendar</a>
         </div>
       )}
     </nav>
