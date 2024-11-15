@@ -80,46 +80,4 @@
   }
 
 }
-/* @media (max-width: 480){
-  .bdy_u{
-    background-color: rgb(15, 18, 158);
-    height: 230vh;
-   min-width:27vh;
-    
-  }
-  .bdy_u2 {
-    border-radius: 10px;
-    width: 22rem;
-    height: 210px;
-    margin-left: -0px;  
-  }
-  .image2_u{
-    margin: -50px 0px 0px 32vh;
-    width: 30px;
-  }
-  .image3_u{
-    width: 39vh;
-    margin-top: -85px;
-    margin-left: -3px;
-    position: absolute;
-  }
-  .icons_u{
-    margin-top: -4em;
-    margin-left: 11vh;
-}
-.sidebar_u{
-  margin-top: 43vh;
-  border-radius: 8px;
-  margin-left: -1030px;
-  width: 42vh;
-  padding: 20px;
- 
-}
-.sidebar2_u{
-  margin-left: -1020px;
-  width: 355px;
-
-     
-  }
-} */
 
