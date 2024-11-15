@@ -1,4 +1,5 @@
 import  { useState } from 'react';
+import login from './../../navbar/assests/login.jpeg';
 
 export default function App() {
   const [isLogin, setIsLogin] = useState(true); // Toggle between login and register
@@ -43,10 +44,10 @@ export default function App() {
       {/* <div
         className="hidden md:block md:w-1/2 h-1/3 md:h-full bg-cover bg-center"
         style={{ backgroundImage: url('https://your-image-url.com') }}
-      > */}
+      > */} 
       <div
   className="w-1/2 h-full bg-cover bg-center h-4/5 w-5/12 rounded-3xl mt-16 ml-14"
-  style={{ backgroundImage: `url('http://127.0.0.1:5500/E-learning-Team2-/assest/media/log-bg.jpeg')` }}
+  style={{ backgroundImage: `url(${login})` }}
 >
 
         {/* Replace 'https://your-image-url.com' with the actual URL of the image you want to display */}

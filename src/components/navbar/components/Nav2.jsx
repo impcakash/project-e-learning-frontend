@@ -1,4 +1,5 @@
 import { useState } from "react";
+import image from '../../navbar/assests/image 12.png';
 
 function Nav2() {
   const [isOpen, setIsOpen] = useState(false);
@@ -36,7 +37,8 @@ function Nav2() {
           >
             {/* Profile Image */}
             <img
-              src="http://127.0.0.1:5500/E-learning-Team2-/assest/media/image%2012.png" // Placeholder image URL; replace with actual profile image URL
+              // src="http://127.0.0.1:5500/E-learning-Team2-/assest/media/image%2012.png" 
+              src={image}
               alt="Profile"
               className="w-10 h-10 rounded-full object-cover"
             />

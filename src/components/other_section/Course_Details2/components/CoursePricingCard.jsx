@@ -1,11 +1,16 @@
-import React from 'react';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faTwitter, faFacebook, faInstagram, faYoutube, faTelegram, faWhatsapp } from '@fortawesome/free-brands-svg-icons'; // Import icons
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+  faTwitter,
+  faFacebook,
+  faInstagram,
+  faYoutube,
+  faTelegram,
+  faWhatsapp,
+} from "@fortawesome/free-brands-svg-icons"; // Import icons
 
 const CoursePricingCard = () => {
   return (
     <div className="bg-white p-6 rounded-lg shadow-md max-w-md mx-auto space-y-6 md:max-w-4xl">
-
       {/* Pricing and Discount Section */}
       <div className="text-center space-y-2 md:w-[100%]">
         <div className="text-4xl font-semibold flex items-center justify-center space-x-4">
@@ -48,7 +53,8 @@ const CoursePricingCard = () => {
       <div className="pt-4 border-t border-gray-300">
         <h3 className="font-semibold text-3xl">Training 5 or more people</h3>
         <p className="text-gray-700 mt-2 text-base md:text-lg">
-          Class, launched less than a year ago by Blackboard co-founder Michael Chasen, integrates exclusively...
+          Class, launched less than a year ago by Blackboard co-founder Michael
+          Chasen, integrates exclusively...
         </p>
       </div>
 
@@ -56,15 +62,19 @@ const CoursePricingCard = () => {
       <div className="pt-4 border-t border-gray-300">
         <h3 className="font-semibold text-3xl">Share this course</h3>
         <div className="flex justify-center space-x-4 mt-4 text-2xl">
-          {[ 
-            { icon: faTwitter, link: "#" }, 
-            { icon: faFacebook, link: "#" }, 
-            { icon: faYoutube, link: "#" }, 
-            { icon: faInstagram, link: "#" }, 
-            { icon: faTelegram, link: "#" }, 
-            { icon: faWhatsapp, link: "#" }
+          {[
+            { icon: faTwitter, link: "#" },
+            { icon: faFacebook, link: "#" },
+            { icon: faYoutube, link: "#" },
+            { icon: faInstagram, link: "#" },
+            { icon: faTelegram, link: "#" },
+            { icon: faWhatsapp, link: "#" },
           ].map((social, index) => (
-            <a href={social.link} key={index} className="text-gray-500 hover:text-teal-500 transition-all duration-300">
+            <a
+              href={social.link}
+              key={index}
+              className="text-gray-500 hover:text-teal-500 transition-all duration-300"
+            >
               <FontAwesomeIcon icon={social.icon} />
             </a>
           ))}
