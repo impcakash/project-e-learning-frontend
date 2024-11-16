@@ -72,8 +72,7 @@ const Component1 = () => {
           </div>
         </div>
       </div>
-      <Component2 />
-      <Component3 />
+     
     </div>
     
   );
