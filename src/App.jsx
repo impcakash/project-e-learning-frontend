@@ -9,6 +9,7 @@ import Component3 from "./components/literature/components/Component3";
 import Footer from "./components/footer/Footer.jsx";
 import Login from "./components/navbar/components/Login.jsx";
 import Meeting from "./components/other_section/Meeting/Meeting";
+import BlogDetail from "./components/other_section/Blog_Detail/BlogDet.jsx";
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
       <Footer/>
       <Login/> */}
       {/* <Meeting /> */}
+      <BlogDetail />
 
       {/* <Homepage /> */}
 
