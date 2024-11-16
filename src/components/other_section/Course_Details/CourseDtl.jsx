@@ -1,9 +1,8 @@
-import React from 'react'
-import Sidebar from '../Course_Calender/components/sidebar';
-import VideoPlayerMock from './components/VideoPlayerMock';
-import CourseInfo from './components/CourseInfo';
-import TestimonialCard from './components/TestimonialCard';
-import StudentAlsoBought from './components/StudentAlsoBought';
+import Sidebar from "../Course_Calender/components/Sidebar";
+import VideoPlayerMock from "./components/VideoPlayerMock";
+import CourseInfo from "./components/CourseInfo";
+import TestimonialCard from "./components/TestimonialCard";
+import StudentAlsoBought from "./components/StudentAlsoBought";
 
 const CourseDtl = () => {
   return (
@@ -23,7 +22,7 @@ const CourseDtl = () => {
         </div>
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default CourseDtl
+export default CourseDtl;

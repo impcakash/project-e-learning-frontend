@@ -1,14 +1,12 @@
-import React from 'react';
-import img2 from '../../../images/img2.png';
-import img3 from '../../../images/img3.png';
+import img2 from "../../../images/img2.png";
+import img3 from "../../../images/img3.png";
 
 const BlogDetail = () => {
-    return (
-   
-       <>
-          <div>
-          <img src={img2} />
-          </div>
+  return (
+    <>
+      <div>
+        <img src={img2} />
+      </div>
       {/* </div> */}
       <div className="flex flex-col items-center p-6 md:p-10 min-h-screen">
         <div className="max-w-7xl  bg-white p-6 md:p-10 rounded-lg ">
@@ -16,32 +14,39 @@ const BlogDetail = () => {
             Why Swift UI Should Be on the Radar of Every Mobile Developer
           </h1>
           <p className="text-gray-500 leading-relaxed mb-4 text-lg">
-            TOTC is a platform that allows educators to create online classes whereby they can store
-            the course materials online; manage assignments, quizzes and exams; monitor due dates;
-            grade results and provide students with feedback all in one place.
+            TOTC is a platform that allows educators to create online classes
+            whereby they can store the course materials online; manage
+            assignments, quizzes and exams; monitor due dates; grade results and
+            provide students with feedback all in one place.
           </p>
           <p className="text-gray-500 leading-relaxed mb-4 text-lg">
-            TOTC is a platform that allows educators to create online classes whereby they can store
-            the course materials online; manage assignments, quizzes and exams; monitor due dates;
-            grade results and provide students with feedback all in one place.
+            TOTC is a platform that allows educators to create online classes
+            whereby they can store the course materials online; manage
+            assignments, quizzes and exams; monitor due dates; grade results and
+            provide students with feedback all in one place.
           </p>
           <p className="text-gray-500 leading-relaxed mb-9 text-lg">
-            TOTC is a platform that allows educators to create online classes whereby they can store
-            the course materials online; manage assignments, quizzes and exams; monitor due dates;
-            grade results and provide students with feedback all in one place.
+            TOTC is a platform that allows educators to create online classes
+            whereby they can store the course materials online; manage
+            assignments, quizzes and exams; monitor due dates; grade results and
+            provide students with feedback all in one place.
           </p>
           <div className="flex flex-wrap gap-3 mb-8">
-            <span className="px-3 py-1 bg-gray-200 rounded-full text-gray-600">affordable</span>
-            <span className="px-3 py-1 bg-gray-200 rounded-full text-gray-600">Stunning</span>
-            <span className="px-3 py-1 bg-gray-200 rounded-full text-gray-600">making</span>
-            <span className="px-3 py-1 bg-gray-200 rounded-full text-gray-600">madbrawns</span>
+            <span className="px-3 py-1 bg-gray-200 rounded-full text-gray-600">
+              affordable
+            </span>
+            <span className="px-3 py-1 bg-gray-200 rounded-full text-gray-600">
+              Stunning
+            </span>
+            <span className="px-3 py-1 bg-gray-200 rounded-full text-gray-600">
+              making
+            </span>
+            <span className="px-3 py-1 bg-gray-200 rounded-full text-gray-600">
+              madbrawns
+            </span>
           </div>
           <div className="flex items-center gap-4">
-            <img
-              src={img3}
-              alt="Author"
-              className="w-16 h-20 object-cover"
-            />
+            <img src={img3} alt="Author" className="w-16 h-20 object-cover" />
             <div>
               <p className="text-gray-700">Written by</p>
               <p className="text-gray-800 ">Lina</p>
@@ -51,12 +56,9 @@ const BlogDetail = () => {
             </button>
           </div>
         </div>
-       
       </div>
-      
-       </>
-      
-    );
-  };
-  
-  export default BlogDetail;
+    </>
+  );
+};
+
+export default BlogDetail;
