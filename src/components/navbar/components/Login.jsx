@@ -44,7 +44,7 @@ export default function App() {
       {/* <div
         className="hidden md:block md:w-1/2 h-1/3 md:h-full bg-cover bg-center"
         style={{ backgroundImage: url('https://your-image-url.com') }}
-      > */}
+      > */} 
       <div
   className="w-1/2 h-full bg-cover bg-center h-4/5 w-5/12 rounded-3xl mt-16 ml-14"
   style={{ backgroundImage: `url(${login})` }}
