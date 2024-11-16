@@ -13,6 +13,13 @@ import img9 from '../assests/img9.png';
 import img10 from '../assests/img10.png';
 import img11 from '../assests/img11.png';
 import img12 from '../assests/img12.png';
+import start from '../assests/star.png';
+import play from '../assests/play.png';
+import eye from '../assests/eye.png';
+import twitter from '../assests/twitter.png';
+import facebook from '../assests/facebook.png';
+import instagram from '../assests/instagram.png';
+
 
 const images = {
     About: img3,
@@ -71,7 +78,7 @@ const Component1 = () => {
       <div className="relative max-w-7xl mx-auto p-6 max-h-[390px] overflow-hidden rounded-lg w-full">
         <img src={image2} className="relative  top-50 left-0 w-full h-full object-cover opacity-70" />
 
-        {/* Profile Circle with Avatar */}
+    
         <div className="absolute -top-20 left-16">
           <img
             src={image1}
@@ -107,24 +114,24 @@ const Component1 = () => {
        <div className="flex items-center justify-between mt-0 text-sm text-gray-500">
            <div className="flex items-center space-x-1">
               <div className='icons_u'>
-                <img src="http://127.0.0.1:5500/E-learning-Team2-/assest/media/star.png" alt="Rating" className="w-5 h-5" />
+                <img src={start} alt="Rating" className="w-5 h-5" />
                 <span>4.9 Instructor Rating</span>
               </div>
               <div className="icons_u">
-                <img src="http://127.0.0.1:5500/E-learning-Team2-/assest/media/eye.png" alt="Students" className="w-5 h-5" />
+                <img src={eye} alt="Students" className="w-5 h-5" />
                 <span>1,592 Students</span>
               </div>
               <div className="icons_u">
-                <img src="http://127.0.0.1:5500/E-learning-Team2-/assest/media/play.png" alt="Courses" className="w-5 h-5" />
+                <img src={play} alt="Courses" className="w-5 h-5" />
                 <span>Courses</span>
                 {/* </div> */}
               </div>
             </div>
     </div>
     <div className='eyecon_u'>
-              <img src="http://127.0.0.1:5500/E-learning-Team2-/assest/media/twitter.png" alt="" />
-              <img src="http://127.0.0.1:5500/E-learning-Team2-/assest/media/facebook.png" alt=""  />
-              <img src="http://127.0.0.1:5500/E-learning-Team2-/assest/media/instagram.png" alt="" />
+              <img src={twitter} alt="" />
+              <img src={facebook} alt=""  />
+              <img src={instagram} alt="" />
             </div> 
 
           </div>
