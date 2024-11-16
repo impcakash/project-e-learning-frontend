@@ -25,22 +25,22 @@
 .image3_u{
   width: 134vh;
   margin-top: -106px;
-   position: absolute;
-
+  position: absolute;
 }
 .icons_u{
-  margin-top: 28rem;
-  margin-left: 120px;
+  margin-top: 24rem;
+  margin-left: 160px;
 }
 .sidebar_u{
-  margin-top: -100%;
+  margin-top: -125%;
   background-color: white;
   border-radius: 8px;
  
 }
+
 @media (max-width:768px){
   .bdy_u{
-    background-color: rgb(215, 241, 246);
+    background-color: rgb(121, 122, 197);
     height: 230vh;
    min-width:27vh;
     
@@ -81,4 +81,5 @@
   }
 
 }
+
 
