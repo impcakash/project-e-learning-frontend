@@ -89,7 +89,7 @@ function Navbar() {
                   </Link>
                   <Link to="/fullViewCalendar">
                     <div className="block px-4 py-2 text-gray-700 hover:bg-teal-100">
-                      Full View Calender
+                      Full View Calendar
                     </div>
                   </Link>
                 </div>
@@ -181,16 +181,16 @@ function Navbar() {
             <div className="block px-4 py-2 text-white">Checkout</div>
           </Link>
           <Link to="/calendar1">
-            <div className="block px-4 py-2 text-white">Calender 01</div>
+            <div className="block px-4 py-2 text-white">Calendar 01</div>
           </Link>
           <Link to="/calendar2">
-            <div className="block px-4 py-2 text-white">Calender 02</div>
+            <div className="block px-4 py-2 text-white">Calendar 02</div>
           </Link>
           <Link to="/courseCalendar">
             <div className="block px-4 py-2 text-white">Course Calendar</div>
           </Link>
           <Link to="/fullViewCalendar">
-            <div className="block px-4 py-2 text-white">Full View Calender</div>
+            <div className="block px-4 py-2 text-white">Full View Calendar</div>
           </Link>
           <div className="flex justify-around py-4">
             <Link to="/login">
