@@ -46,20 +46,20 @@
   }
 .bdy_u2 {
     border-radius: 10px;
-    width: 24rem;
+    width: 23rem;
     height: 210px;
     margin-left: -0px;
     
   }
   .image2_u{
-    margin: -50px 0px 0px 35vh;
+    margin: -50px 0px 0px 33vh;
     width: 30px;
   
   }
   .image3_u{
-    width: 42vh;
+    width: 41vh;
     margin-top: -85px;
-    margin-left: -0px;
+    margin-left: -3px;
     position: absolute;
   }
   .icons_u{
@@ -67,18 +67,18 @@
     margin-left: 12vh;
 }
 .sidebar_u{
-  margin-top: 50vh;
+  margin-top: 45vh;
   /* background-color: white; */
   border-radius: 8px;
-  margin-left: -1020px;
-  width: 42vh;
+  margin-left: -1030px;
+  width: 41vh;
   padding: 30px;
  
 }
 .sidebar2_u{
   margin-left: -1020px;
-  width: 370px;
-   padding: -50px;
+  width: 360px;
+   /* padding: -30px; */
      
   }
 }
