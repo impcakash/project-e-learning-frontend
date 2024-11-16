@@ -44,11 +44,14 @@ const Meeting = () => {
           <img src={img1} />
         </div>
 
-           <div className='imggg_u'>
-         <div className='absolute top-40 ml-[770px] gap-x-3 rounded-sm '>
-          <img src={img2} alt="" />
-          <img src={img3} alt="" />
-          <img src={img4} alt="" />  
+          <div className='imggg_u'>
+         <div className='absolute ml-[770px]'>
+          <img className="gap-x-3 border-2 border-gray
+         rounded-sm w-40" src={img2} alt="" /> 
+          <img className="gap-x-3 border-2 border-gray
+         rounded-sm w-40" src={img3} alt="" />
+          <img className="gap-x-3 border-2 border-gray
+         rounded-sm w-40" src={img4} alt="" />  
          </div>
          </div>
                      
