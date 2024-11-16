@@ -45,7 +45,17 @@ const router = createBrowserRouter(
       <Route path="fullViewCalendar" element={<CourseDtl />} />
       <Route path="login" element={<Login />} />
     </Route>
-  )
+  ),
+  {
+    future: {
+      v7_startTransition: true,
+      v7_relativeSplatPath: true,
+      v7_fetcherPersist: true,
+      v7_normalizeFormMethod: true,
+      v7_partialHydration: true,
+      v7_skipActionErrorRevalidation: true,
+    },
+  }
 );
 
 createRoot(document.getElementById("root")).render(
