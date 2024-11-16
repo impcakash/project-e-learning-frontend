@@ -1,3 +1,5 @@
+
+
 .bdy_u{
   background-color: rgb(202, 235, 248);
   height: 1050px;
@@ -25,22 +27,22 @@
 .image3_u{
   width: 134vh;
   margin-top: -106px;
-  position: absolute;
+   position: absolute;
+
 }
 .icons_u{
-  margin-top: 24rem;
-  margin-left: 160px;
+  margin-top: 28rem;
+  margin-left: 120px;
 }
 .sidebar_u{
-  margin-top: -125%;
+  margin-top: -123%;
   background-color: white;
   border-radius: 8px;
  
 }
-
 @media (max-width:768px){
   .bdy_u{
-    background-color: rgb(121, 122, 197);
+    background-color: rgb(215, 241, 246);
     height: 230vh;
    min-width:27vh;
     
@@ -75,11 +77,9 @@
 }
 .sidebar2_u{
   margin-left: -1020px;
-  width: 355px;
-
-     
+  width: 355px;  
   }
 
 }
-
+     
 
