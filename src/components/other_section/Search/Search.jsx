@@ -15,6 +15,7 @@ const Search = () => {
       <LearningPlatformBanner />
       <CourseList2 />
       <ClassesTaughtByCreators />
+      <TestimonialCard/>
       <div className="m-4"><Offers /></div>
     </div>
   )
