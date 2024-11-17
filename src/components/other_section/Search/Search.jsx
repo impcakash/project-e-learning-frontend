@@ -15,8 +15,7 @@ const Search = () => {
       <LearningPlatformBanner />
       <CourseList2 />
       <ClassesTaughtByCreators />
-      <TestimonialCard/>
-      <div className='container mx-auto my-4'><Offers /></div>
+      <div className="m-4"><Offers /></div>
     </div>
   )
 }
