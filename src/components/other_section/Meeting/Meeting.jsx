@@ -55,7 +55,7 @@ const Meeting = () => {
          </div>
          </div>
                      
-                <div className='icons_u'>
+{/*                 <div className='icons_u'>
                     <div className=" absolute flex justify-center bg-gray-100 rounded-full p-2 space-x-5 shadow-lg w-2/5  mr-64 my-80 ">
                         <button className="bg-red-500 p-3 rounded-full text-white">
                             <FontAwesomeIcon icon={faVideo} className="h-6 w-6" />
@@ -73,7 +73,7 @@ const Meeting = () => {
                             <FontAwesomeIcon icon={faArrowUpRightFromSquare} className="h-6 w-6" />
                         </button>
                     </div>
-                </div>
+                </div> */}
 {/* ..course contents.. */}
                 <div className='ml-[1020px]  '>
                     <div className="sidebar_u ">
