@@ -29,18 +29,15 @@
   margin-top: -106px;
   position: absolute;
 }
-.icons_u {
-  margin: 510px 0 0 145px;
-  display: flex;
-  align-items: center;
-  gap: 9px;
-  justify-content: space-between;
-  position: relative;
+.icons_u{
+  margin-top: 30rem;
+  margin-left: 160px;
 }
 .sidebar_u{
-  margin-top: -198%;
+  margin-top: -10%;
   background-color: white;
-  border-radius: 8px; 
+  border-radius: 8px;
+ 
 }
 
 @media (max-width:768px){
