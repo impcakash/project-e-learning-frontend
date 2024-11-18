@@ -27,19 +27,22 @@
 .image3_u{
   width: 141vh;
   margin-top: -106px;
-   position: absolute;
-
+  position: absolute;
 }
-.icons_u{
-  margin-top: 30rem;
-  margin-left: 160px;
+.icons_u {
+  margin: 701px 0 0 152px;
+  display: flex;
+  align-items: center;
+  gap: 9px;
+  justify-content: space-between;
+  position: relative;
 }
 .sidebar_u{
-  margin-top: -5%;
+  margin-top: -190%;
   background-color: white;
-  border-radius: 8px;
- 
+  border-radius: 8px; 
 }
+
 @media (max-width:768px){
   .bdy_u{
     background-color: rgb(215, 241, 246);
