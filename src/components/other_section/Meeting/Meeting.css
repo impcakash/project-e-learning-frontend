@@ -30,7 +30,7 @@
   position: absolute;
 }
 .icons_u {
-  margin: 701px 0 0 152px;
+  margin: 510px 0 0 145px;
   display: flex;
   align-items: center;
   gap: 9px;
@@ -38,7 +38,7 @@
   position: relative;
 }
 .sidebar_u{
-  margin-top: -190%;
+  margin-top: -198%;
   background-color: white;
   border-radius: 8px; 
 }
