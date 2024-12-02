@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 const lessons = [
   {
     section: "Change Simplification",
@@ -200,12 +202,13 @@ const LessonCard = ({ color, textColor, title, time }) => {
   );
 };
 
-
 const Sidebar = () => (
   <div className="py-6 px-6 max-w-auto bg-white">
-    <button className="p-2 px-4 bg-teal-500 text-white rounded-lg mb-4 hover:border-black hover:border">
-      <i className="fas fa-arrow-left"></i>
-    </button>
+    <Link to="/">
+      <button className="p-2 px-4 bg-teal-500 text-white rounded-lg mb-4 hover:border-black hover:border">
+        <i className="fas fa-arrow-left"></i>
+      </button>
+    </Link>
     {lessons.map((section, index) => (
       <div key={index}>
         <h3 className="text-xl mb-2 mt-4">{section.section}</h3>
